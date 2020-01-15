@@ -23,7 +23,9 @@ nC = -10 + 10 * len(player_names)
 #Define box
 box = testUtility.getBoxes(nV, 10)    ## REFACTOR
 
-supply_order = {0:['Curse','Copper', 'Province'],2:['Estate','Cellar','Chapel','Moat'],
+
+### TEST: MOVED Province CARD TO THE 0 COST SUPPLY
+supply_order = {0:['Curse','Copper', 'Province'],2:['Estate','Cellar','Chapel','Moat'],           
                 3:['Silver','Chancellor','Village','Woodcutter','Workshop'],
                 4:['Gardens','Bureaucrat','Feast','Militia','Moneylender','Remodel','Smithy','Spy','Thief','Throne Room'],
                 5:['Duchy','Market','Council Room','Festival','Laboratory','Library','Mine','Witch'],

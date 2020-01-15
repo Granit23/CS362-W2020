@@ -15,7 +15,7 @@ player_names = ["*Granit","*Ben","*Carla"]
 
 #number of curses and victory cards
 if len(player_names)>2:
-    nV=122
+    nV=122   #TEST: chagned number of victory cards to 122
 else:
     nV=8
 nC = -10 + 10 * len(player_names)
